@@ -1,4 +1,4 @@
 randomTweaks
 ============
 
-Random stuff that I'm tryng as I test things
+Random stuff that I'm trying as I test things
