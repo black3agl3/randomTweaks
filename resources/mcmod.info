@@ -1,0 +1,16 @@
+[
+{
+  "modid": "randomtweaks",
+  "name": "Random Tweaks",
+  "description": "Random Stuff I'm doing to Minecraft while I'm testing stuff out",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://github.com/black3agl3/randomTweaks",
+  "updateUrl": "",
+  "authors": ["black3agl3"],
+  "credits": "Who to credit huh?",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
