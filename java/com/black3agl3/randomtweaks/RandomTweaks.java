@@ -6,7 +6,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Info.MODID, name = Info.NAME, version = Info.VERSION)
+@Mod(modid = Info.MODID, name = Info.NAME, version = Info.VERSION, dependencies = Info.DEPENDENCIES)
 public class RandomTweaks {
 	
 	@EventHandler

@@ -1,25 +1,36 @@
 package com.black3agl3.randomtweaks;
 
-import org.omg.CORBA.portable.UnknownException;
-
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.oredict.OreDictionary;
+
+import org.omg.CORBA.portable.UnknownException;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 
 public class Helper {
 	
+	//Just to make my main mod class look nice and clean
 	public static void preInit () {
-	
+		
 	}
 	
 	public static void init () {
-	
+		for (ItemStack itemStack:OreDictionary.getOres("ingotAluminium")){
+			int oreID = OreDictionary.getOreID(itemStack);
+			String oreName = OreDictionary.getOreName(oreID);
+			log(oreID+":"+oreName+" found for ingotAluminium search");
+			OreDictionary.registerOre("ingotAluminum", itemStack);
+		}
 	}
 	
 	public static void postInit () {
-	
+
 	}
 	
+	
+	//some random functions I plan to use to help me with stuff.
 	public static void register (Object obj) {
 	
 		if (obj instanceof Block) {
@@ -39,5 +50,9 @@ public class Helper {
 		
 		if (endindex<0) return unlocalizedName.substring(startindex);
 		else return unlocalizedName.substring(startindex, endindex);
+	}
+	
+	public static void log (String str){
+		System.out.println("["+Info.MODID+"] : "+str);
 	}
 }
