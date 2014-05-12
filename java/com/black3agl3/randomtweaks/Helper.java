@@ -17,6 +17,7 @@ public class Helper {
 	}
 	
 	public static void init () {
+		//re-register any ingotAluminium to ingotAluminum
 		for (ItemStack itemStack:OreDictionary.getOres("ingotAluminium")){
 			int oreID = OreDictionary.getOreID(itemStack);
 			String oreName = OreDictionary.getOreName(oreID);
@@ -31,6 +32,10 @@ public class Helper {
 	
 	
 	//some random functions I plan to use to help me with stuff.
+	/**Registers any object for you
+	 * e.g. Block,Item 
+	 * @param obj
+	 */
 	public static void register (Object obj) {
 	
 		if (obj instanceof Block) {
@@ -52,6 +57,10 @@ public class Helper {
 		else return unlocalizedName.substring(startindex, endindex);
 	}
 	
+	/**Basically outputs to console
+	 * 
+	 * @param str
+	 */
 	public static void log (String str){
 		System.out.println("["+Info.MODID+"] : "+str);
 	}
