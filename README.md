@@ -1,9 +1,4 @@
 randomTweaks
 ============
 
-Random stuff that I'm trying as I test things.
-This will most probably not be helpful to anybody but whatever... 
-
-Since I am aiming at making a mod, this will be in java and require forge and stuff.
-
-Enjoy!
+Read more [here](https://github.com/black3agl3/randomTweaks/wiki)
