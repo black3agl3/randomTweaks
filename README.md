@@ -1,4 +1,7 @@
-*RandomTweaks* is a mod I'm creating as I'm trying to learn about Minecraft modding. It works with Minecraft 1.7.2
+###RandomTweaks
+*RandomTweaks* is a mod I'm creating as I'm trying to learn about Minecraft modding to fine tune Minecraft to how I like to play it. My favourite mods are Gregtech, Tinker's Construct, Applied Energistics, Iguana Tweaks for Tinker's Construct and Hunger Overhaul. 
+
+*RandomTweaks* works with Minecraft 1.7.2
 
 ***
 
