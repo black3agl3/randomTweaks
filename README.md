@@ -4,7 +4,7 @@
 
 Features:
 * Snow Buckets: Crafted using a snow block and an empty bucket. These can be smelted into a water bucket
-
+* GT Aluminium is now compatible with Tinker's Construct Smeltery.
 
 
 ***
