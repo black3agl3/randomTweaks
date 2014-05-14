@@ -1,11 +1,15 @@
 package com.black3agl3.randomtweaks;
 
 import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.oredict.OreDictionary;
 
 import org.omg.CORBA.portable.UnknownException;
+
+import com.black3agl3.randomtweaks.item.ItemSnowBucket;
 
 import cpw.mods.fml.common.registry.GameRegistry;
 
@@ -13,7 +17,17 @@ public class Helper {
 	
 	//Just to make my main mod class look nice and clean
 	public static void preInit () {
+		ItemSnowBucket snow_bucket = new ItemSnowBucket();
+		register(snow_bucket);
 		
+		ItemStack snowBucketItemStack= new ItemStack(snow_bucket);
+		
+		GameRegistry.addShapelessRecipe(snowBucketItemStack, new Object[]{
+			Items.bucket,
+			Blocks.snow
+		});
+		
+		GameRegistry.addSmelting(snowBucketItemStack,new ItemStack(Items.water_bucket),0);
 	}
 	
 	public static void init () {

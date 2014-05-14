@@ -5,6 +5,6 @@ public class Info {
 			MODID = "randomtweaks",
 			NAME = "Random Tweaks",
 			VERSION = "1.0",
-			DEPENDENCIES = "required-after:gregtech"
+			DEPENDENCIES = "after:gregtech"
 			;
 }
