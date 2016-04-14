@@ -1,5 +1,5 @@
 ###RandomTweaks
-*RandomTweaks* is a mod I'm creating as I'm trying to learn about Minecraft modding to fine tune Minecraft to how I like to play it. My favourite mods are Gregtech, Tinker's Construct, Applied Energistics, Iguana Tweaks for Tinker's Construct and Hunger Overhaul. 
+*RandomTweaks* is a mod I'm creating as I'm trying to learn about Minecraft modding. My favourite mods are Gregtech, Tinker's Construct, Applied Energistics, Iguana Tweaks for Tinker's Construct and Hunger Overhaul. 
 
 ***
 
